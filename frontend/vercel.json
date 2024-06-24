@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "./public/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/contact-me", "dest": "./pages/contact-me.html" },
+    { "src": "/projects", "dest": "./pages/projects.html" },
+    { "src": "/resume", "dest": "./pages/resume.html" },
+    { "src": "/(.*)", "dest": "./public/index.html" }
+  ]
+}
