@@ -3,7 +3,7 @@ function downloadCV() {
   const IconDownload = document.querySelector(".button-download-cv i");
 
   ButtonDownload.addEventListener("click", () => {
-    const CV_PATH = "../../public/CV Samuel Sanchez 2024.pdf";
+    const CV_PATH = "../../public/CV_Samuel_Sanchez_2024.pdf";
 
     const linkToDownloadCV = document.createElement("a");
 
