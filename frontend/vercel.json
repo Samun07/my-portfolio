@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "./public/index.bundle.js",
-      "use": "@vercel/static"
+      "use": "@vercel/node"
     }
   ],
   "routes": [
