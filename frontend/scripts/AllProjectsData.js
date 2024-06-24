@@ -6,7 +6,7 @@ const repository = new Repository();
 function allProjectsData() {
   return new Promise((resolve, reject) => {
     axios
-      .get("http://localhost:3000/projects")
+      .get("https://my-portfolio-backend-five-omega.vercel.app/projects")
       .then((res) => {
         console.log("Project data was uploaded successfully.");
         repository.createProject(res.data);
