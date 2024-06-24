@@ -1,0 +1,131 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking with Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/contact-me.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/animations.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <a class="header-title" href="../index.html"
+        >Portfolio<i class="ri-dashboard-fill"></i>
+      </a>
+
+      <div class="hamburguer-menu">
+        <i class="transition-icon-menu ri-menu-line"></i>
+      </div>
+
+      <nav class="header-navegation">
+        <section class="header-menu">
+          <a href="../index.html"> Home </a>
+          <a href="./projects.html"> Projects </a>
+          <a href="./resume.html"> Resume </a>
+          <a id="menu-active" href="./contact-me.html"> Contact me </a>
+        </section>
+      </nav>
+    </header>
+
+    <div class="page-title">
+      <h3>Contact Me</h3>
+      <div></div>
+    </div>
+
+    <section class="container-contact-me">
+      <div class="div-contact-me">
+        <div class="contact-me">
+          <img src="../public/img/IMG_5742 (1).jpg" alt="Samuel_Picture" />
+          <span class="contact-me-name"> Samuel Sanchez </span>
+
+          <a href="tel:+573160973364" class="contact-me-number"
+            >+57 (316) 097-3364
+            <i class="ri-phone-fill"></i>
+          </a>
+
+          <div class="contact-me-email">
+            <a class="email"
+              >samuelsanchez.szr@gmail.com
+              <i class="ri-file-copy-line transition-icon"></i
+            ></a>
+          </div>
+
+          <div class="contact-me-buttons">
+            <a
+              href="https://www.linkedin.com/in/samuel-sanchez-5174a51b4"
+              target="_blank"
+            >
+              <button class="contact-me-linkedin-button">Linkedin</button>
+            </a>
+            <a href="https://github.com/Samun07" target="_blank">
+              <button class="contact-me-github-button">Github</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.2365699719794!2d-74.03167442445783!3d4.728922729181903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8f0076464557%3A0x6b85b0a6456b3dc1!2sCl.%20153%20%237-%2026!5e0!3m2!1ses-419!2sco!4v1719033172569!5m2!1ses-419!2sco"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <footer>
+      <h2 class="footer-title">Portfolio <i class="ri-dashboard-fill"></i></h2>
+      <section class="container-footer">
+        <p>
+          This website was created by Samuel Sanchez using HTML, CSS,
+          JavaScript, and Node.js for both the front end and back end, along
+          with MongoDB for the database. If you like this website and would like
+          to get in touch, please feel free to contact me. I am always open to
+          new opportunities and new offers.
+        </p>
+
+        <div class="footer-icons">
+          <a
+            href="https://www.linkedin.com/in/samuel-sanchez-5174a51b4/"
+            target="_blank"
+          >
+            <i class="ri-linkedin-fill"></i>
+          </a>
+
+          <a href="https://github.com/Samun07" target="_blank">
+            <i class="ri-github-fill"></i>
+          </a>
+
+          <a href="tel:+573160973364">
+            <i class="ri-phone-fill"></i>
+          </a>
+
+          <a href="mailto:samuelsanchez.szr@gmail.com">
+            <i class="ri-mail-fill"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
+
+    <script src="../scripts/global-functions/CopyEmail.js"></script>
+    <script src="../scripts/global-functions/HeaderHamburguerMenu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Samuel Sanchez",
+  "license": "ISC",
+  "description": "Portfolio Front End/Client",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}

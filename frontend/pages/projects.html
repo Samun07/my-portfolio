@@ -1,0 +1,93 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking with Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/all-projects.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/animations.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <a class="header-title" href="../index.html"
+        >Portfolio<i class="ri-dashboard-fill"></i>
+      </a>
+
+      <div class="hamburguer-menu">
+        <i class="transition-icon-menu ri-menu-line"></i>
+      </div>
+
+      <nav class="header-navegation">
+        <section class="header-menu">
+          <a href="../index.html"> Home </a>
+          <a id="menu-active" href="./projects.html"> Projects </a>
+          <a href="./resume.html"> Resume </a>
+          <a href="./contact-me.html"> Contact me </a>
+        </section>
+      </nav>
+    </header>
+
+    <div class="page-title">
+      <h3>Projects</h3>
+      <div></div>
+    </div>
+
+    <section class="container-projects"></section>
+
+    <footer>
+      <h2 class="footer-title">Portfolio <i class="ri-dashboard-fill"></i></h2>
+      <section class="container-footer">
+        <p>
+          This website was created by Samuel Sanchez using HTML, CSS,
+          JavaScript, and Node.js for both the front end and back end, along
+          with MongoDB for the database. If you like this website and would like
+          to get in touch, please feel free to contact me. I am always open to
+          new opportunities and new offers.
+        </p>
+
+        <div class="footer-icons">
+          <a
+            href="https://www.linkedin.com/in/samuel-sanchez-5174a51b4/"
+            target="_blank"
+          >
+            <i class="ri-linkedin-fill"></i>
+          </a>
+
+          <a href="https://github.com/Samun07" target="_blank">
+            <i class="ri-github-fill"></i>
+          </a>
+
+          <a href="tel:+573160973364">
+            <i class="ri-phone-fill"></i>
+          </a>
+
+          <a href="mailto:samuelsanchez.szr@gmail.com">
+            <i class="ri-mail-fill"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
+
+    <script src="../public/index.bundle.js"></script>
+    <script src="../scripts/global-functions/HeaderHamburguerMenu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: 100px;
+}
+
+.loading i {
+  font-size: 18px;
+  color: var(--text-primary-color);
+  animation: spin 2s linear infinite;
+}
+
+.loading h4 {
+  font-size: 18px;
+  color: var(--text-primary-color);
+}
+
+.transition-icon {
+  align-self: center;
+  transition: ease 500ms;
+}
+
+.transition-icon-menu {
+  align-self: center;
+  transition: ease 300ms;
+}
+
+.ri-menu-line {
+  align-self: center;
+  transform: rotate(180deg);
+}
+
+.fade-in-animation {
+  animation: fadeIn 300ms forwards;
+  transform: scale(1.2);
+}
+
+.fade-in-translate-y-animation {
+  animation: fadeInTranslateY 200ms forwards;
+}
+
+/* Keyframes for spinning animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeInTranslateY {
+  from {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

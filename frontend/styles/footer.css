@@ -1,0 +1,84 @@
+/* Styles for the footer section */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  padding-block: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 100px;
+}
+
+.footer-title {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 0.5rem;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--text-primary-color);
+  text-transform: capitalize;
+  height: max-content;
+  width: max-content;
+}
+
+.footer-title i {
+  font-weight: normal;
+  font-size: 24px;
+  color: var(--primary-color);
+  height: 32px;
+  width: max-content;
+}
+
+/* Styles for the container of footer sections */
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  padding-inline: 20vw;
+}
+
+.container-footer p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-secondary-color);
+}
+
+/* Styles for the footer social icons */
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the footer social icons */
+.footer-icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: var(--text-secondary-color);
+  padding: 10px;
+  border-radius: 9999px;
+  border: 1px solid var(--text-secondary-color);
+  transition: ease 150ms;
+}
+
+/* Hover styles for the footer social icons */
+.footer-icons i:hover {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1177px) {
+  .section-footer {
+    padding-inline: 0;
+    padding-block: 2rem;
+  }
+}
