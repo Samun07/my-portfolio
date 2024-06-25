@@ -1,4 +1,4 @@
-function renderAllProjectsCards(data) {
+function renderProjects(data) {
   function createProjectCard(projectCard) {
     //Create Elements of Project Cards
     const project = document.createElement("section");
@@ -97,13 +97,11 @@ function renderAllProjectsCards(data) {
   const containerProjects = document.querySelector(".container-projects");
   const projects = document.createElement("section");
   projects.classList.add("projects");
-  const projectsCards = data.map((projectCard) =>
-    createProjectCard(projectCard)
-  );
-  projectsCards.forEach((projectCards) => {
-    projects.appendChild(projectCards);
+  const projectsCards = data.map((projectCard) => createProjectCard(projectCard));
+  projectsCards.forEach((projectCard) => {
+    projects.appendChild(projectCard);
   });
   containerProjects.appendChild(projects);
 }
 
-module.exports = renderAllProjectsCards;
+module.exports = renderProjects;
