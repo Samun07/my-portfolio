@@ -17,12 +17,14 @@
   font-size: 14px;
   font-weight: bold;
   color: var(--primary-color);
+  text-transform: capitalize;
 }
 
 .projects-menu-title-2 {
   font-size: 18px;
   font-weight: bold;
   color: var(--text-primary-color);
+  text-transform: capitalize;
 }
 
 .projects-menu {
@@ -56,6 +58,7 @@
   height: 40px;
   margin-block: 0.5rem;
   transition: ease 150ms;
+  text-transform: capitalize;
 }
 
 .projects-nav-category:hover{
@@ -83,7 +86,6 @@ color: var(--text-primary-color);
   background-color: var(--secondary-color);
   padding: 30px;
   border-radius: var(--border-radius-primary);
-  opacity: 0;
   gap: 3rem;
   justify-content: center;
 }
@@ -104,12 +106,14 @@ color: var(--text-primary-color);
   font-size: 14px;
   font-weight: 600;
   color: var(--primary-color);
+  text-transform: capitalize;
 }
 
 .project-title {
   font-size: 18px;
   font-weight: bold;
   color: var(--text-primary-color);
+  text-transform: capitalize;
 }
 
 .project-description {
@@ -137,6 +141,7 @@ color: var(--text-primary-color);
   padding-block: 10px;
   border-radius: var(--border-radius-primary);
   transition: ease 150ms;
+  text-transform: capitalize;
 }
 
 .project-front-button:hover, .project-back-button:hover {
@@ -158,6 +163,7 @@ color: var(--text-primary-color);
   align-items: center;
   color: var(--text-secondary-color);
   white-space: nowrap;
+  text-transform: capitalize;
 }
 
 .project-right-side {

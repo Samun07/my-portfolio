@@ -1,5 +1,5 @@
 main {
-  margin: 0 10vw;
+  margin: 50px 10vw;
 }
 
 .container-main-title {
@@ -12,10 +12,11 @@ main {
 .main-title-1, .main-title-2 {
   display: flex;
   justify-content: left;
-  font-size: 10vw;
+  font-size: 150px;
   font-weight: 600;
   color: var(--text-primary-color);
   text-align: left;
+  text-transform: capitalize;
 }
 
 
@@ -25,7 +26,6 @@ main {
   justify-content: space-between;
   align-content: center;
   gap: 3rem;
-  margin-bottom: 100px;
 }
 
 .container-button-download-cv{
@@ -48,6 +48,7 @@ main {
   transition: ease 150ms;
   white-space: nowrap;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 .button-download-cv:hover {
@@ -59,9 +60,25 @@ main {
   align-self: center;
 }
 
+@media (max-width: 1100px) {
+  .main-title-1, .main-title-2 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .main-title-1, .main-title-2 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-title-1, .main-title-2 {
+    font-size: 50px;
+  }
+}
+
 @media (max-width: 700px) {
-
-
   .under-main-title-1{
     grid-template-columns: 1fr;
     justify-content: center;
@@ -71,6 +88,7 @@ main {
   }
 
   .main-title-1, .main-title-2 {
+    
     text-align: center;
     justify-content: center;
   }

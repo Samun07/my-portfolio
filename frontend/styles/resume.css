@@ -11,7 +11,9 @@
 
 .page-title h3 {
   font-size: 24px;
+  font-weight: bold;
   color: var(--text-primary-color);
+  text-transform: capitalize;
 }
 
 .page-title div {
@@ -46,9 +48,10 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  color: var(--text-primary-color);
   font-size: 18px;
   font-weight: bold;
+  text-transform: capitalize;
+  color: var(--text-primary-color);
 }
 
 .about-me-text p {
@@ -70,6 +73,7 @@
   justify-content: center;
   font-size: 16px;
   font-weight: 600;
+  text-transform: capitalize;
   color: var(--text-primary-color);
   background-color: var(--primary-color);
   border-radius: var(--border-radius-primary);
@@ -119,12 +123,14 @@
   font-size: 16px;
   font-weight: bold;
   color: var(--text-primary-color);
+  text-transform: capitalize;
 }
 
 .about-me-img-country {
   font-size: 14px;
   font-weight: 400;
   color: var(--text-secondary-color);
+  text-transform: capitalize;
 }
 
 .studies-container {
@@ -160,6 +166,7 @@
   font-size: 18px;
   font-weight: bold;
   color: var(--text-primary-color);
+  text-transform: capitalize;
 }
 
 .icon-container {
@@ -186,6 +193,7 @@
   grid-template-columns: 20px 1fr;
   gap: 1rem;
   align-items: center;
+  width: max-content;
 }
 
 .studies-sector-1 h5 {
@@ -195,6 +203,9 @@
   font-size: 16px;
   font-weight: bold;
   color: var(--text-primary-color);
+  text-transform: capitalize;
+  width: max-content;
+  height: max-content;
 }
 
 .container-circle {
@@ -215,6 +226,8 @@
   grid-template-columns: 20px 1fr;
   gap: 1rem;
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .studies-description {
@@ -222,30 +235,42 @@
   flex-direction: column;
   gap: 0.5rem;
   justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .studies-description span {
   font-size: 14px;
   font-weight: 500;
   color: var(--primary-color);
+  text-transform: uppercase;
+  width: max-content;
+  height: max-content;
 }
 
 .studies-description p {
   font-size: 16px;
   font-weight: 400;
   color: var(--text-secondary-color);
+  width: 100%;
+  height: 100%;
 }
 
 .container-line {
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
 
 .line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100%;
-  width: 5px;
+  width: 3px;
   background-color: var(--primary-color);
 }
 

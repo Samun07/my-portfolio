@@ -1,10 +1,9 @@
 .slider-brands {
   position: relative;
   white-space: nowrap;
-  padding: 30px 0;
   overflow: hidden;
   background-color: transparent;
-  margin-bottom: 100px;
+  margin-block: 100px;
 }
 
 .slider-brands:before,

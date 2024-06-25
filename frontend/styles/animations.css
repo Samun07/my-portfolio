@@ -32,6 +32,8 @@
   transform: rotate(180deg);
 }
 
+
+
 .fade-in-animation {
   animation: fadeIn 300ms forwards;
   transform: scale(1.2);
@@ -61,11 +63,7 @@
     transform: translateY(20px);
   }
 }
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
+
+
+
