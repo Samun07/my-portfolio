@@ -1,31 +1,15 @@
 :root {
-  --bg-color: #ffffff;
-  --bg-color-properties: 255, 255, 255;
-  --text-primary-color: #1f1e1f;
-  --text-secondary-color: #282828;
+  --bg-color: #1f1e1f;
+  --bg-color-properties: 31, 30, 31;
+  --text-primary-color: #ffffff;
+  --text-secondary-color: #f1f1f1;
   --primary-color: #0056ff;
-  --secondary-color: #f1f1f1;
+  --secondary-color: #282828;
   --hover-primary-color: #003ecb;
   --hover-text-primary-color: #ededed;
   --hover-secondary-color: #fdfbf6d8;
-  /*Boder Radius */
+  /*Boder Radius*/
   --border-radius-primary: 0.75rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #1f1e1f;
-    --bg-color-properties: 31, 30, 31;
-    --text-primary-color: #ffffff;
-    --text-secondary-color: #f1f1f1;
-    --primary-color: #0056ff;
-    --secondary-color: #282828;
-    --hover-primary-color: #003ecb;
-    --hover-text-primary-color: #ededed;
-    --hover-secondary-color: #fdfbf6d8;
-    /*Boder Radius*/
-    --border-radius-primary: 0.75rem;
-  }
 }
 
 * {
